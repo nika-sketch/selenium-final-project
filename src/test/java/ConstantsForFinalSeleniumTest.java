@@ -1,0 +1,56 @@
+public class ConstantsForFinalSeleniumTest {
+
+    public static final String MAIN_SITE_URL = "http://tutorialsninja.com/demo/";
+    public static final String MY_ACCOUNT_XPATH = "//a[@title='My Account']";
+    public static final String REGISTER_BUTTON_XPATH = "//a[@href='http://tutorialsninja.com/demo/index.php?route=account/register']";
+    public static final String NAME = "John";
+    public static final String LASTNAME_BY_NAME = "lastname";
+    public static final String LASTNAME = "Doe";
+    public static final String EMAIL_XPATH = "//input[@id='input-email']";
+    public static final String TELEPHONE_XPATH = "//input[@id='input-telephone']";
+    public static final String TELEPHONE_NUMBER = "202-555-0140";
+    public static final String PASSWORD_SELECTOR = "#input-password";
+    public static final String PASSWORD = "JohnDoeOriginal";
+    public static final String CONFIRM_PASSWORD_SELECTOR = "#input-confirm";
+    public static final String RADIO_BUTTON_NAME = "newsletter";
+    public static final String POLICY_AGREEMENT_NAME = "agree";
+    public static final String CONTINUE_BUTTON_XPATH = "//input[@type='submit']";
+    public static final String DESKTOPS_XPATH = "//a[text()='Desktops']";
+    public static final String ALL_DESKTOPS_XPATH = "//a[text()='Show All Desktops']";
+    public static final String MP3_PLAYERS_SELECTOR = "#column-left>div.list-group>a:nth-child(10)";
+    public static final String IPOD_SHUFFLE_XPATH = "//img[@src='http://tutorialsninja.com/demo/image/cache/catalog/demo/ipod_shuffle_1-228x228.jpg']";
+    public static final String IPOD_SHUFFLE_IMAGE_SELECTOR = "#content > div > div.col-sm-8 > ul.thumbnails > li:nth-child(1) > a > img";
+    public static final String RIGHT_CLICK_ON_BUTTON_XPATH = "//button[@title='Next (Right arrow key)']";
+    public static final String IMAGE_COUNTER_CLASSNAME = "mfp-counter";
+    public static final String CLOSE_IMAGES_XPATH = "//button[@title='Close (Esc)']";
+    public static final String WRITE_REVIEW_SELECTOR = "#content > div > div.col-sm-4 > div.rating > p > a:nth-child(7)";
+    public static final String REVIEW_SELECTOR = "#input-review";
+    public static final String REVIEW = "qwertyuiopasdfghjklzxcvbnmq";
+    public static final String RATING_RADIO_BUTTON_SELECTOR = "#form-review > div:nth-child(5) > div > input[type=radio]:nth-child(6)";
+    public static final String SUBMIT_REVIEW_SELECTOR = "#button-review";
+    public static final String CARD_TOTAL_ID = "cart-total";
+    public static final String UNVISIBLEELEMENTXPATH = "//*[@id=\"cart\"]/ul/li[2]/div/p/a[2]/strong";
+    public static final String FIRST_NAME_DETAILS = "firstname";
+    public static final String ADDRESS_XPATH = "//input[@id='input-payment-address-1']";
+    public static final String ADDRESS = "JohnDoeStreet";
+    public static final String CITY = "city";
+    public static final String OUR_CITY = "Tbilisi";
+    public static final String TEST_DROPDOWN_ID = "input-payment-country";
+    public static final String GEORGIA = "//*[@id=\"input-payment-country\"]/option[87]";
+    public static final String REGIONSTATE_ID = "input-payment-zone";
+    public static final String TBILISI = "//option[@value='1244']";
+    public static final String PAYMENT_ID = "button-payment-address";
+    public static final String COMMENT = "comment";
+    public static final String LAST_NAME = "input-payment-lastname";
+    public static final String CHECK_STATUS_XPATH = "//*[@id=\"content\"]/div[1]/table/tbody/tr/td[4]";
+    public static final String LIST_OF_TABLE_XPATH = "//*[@id=\"content\"]/div[1]/table/tbody/tr";
+    public static final String ORDER_PLACED_SECTION_XPATH = "//*[@id=\"content\"]/p[2]/a[2]";
+    public static final String CONFIRM_BUTTON_ID = "button-confirm";
+    public static final String SHIPPING_RATE_XPATH = "//*[@id=\"collapse-checkout-confirm\"]/div/div[1]/table/tfoot/tr[2]/td[2]";
+    public static final String TOTAL_AMOUNT_XPATH = "//*[@id=\"collapse-checkout-confirm\"]/div/div[1]/table/tbody/tr/td[5]";
+    public static final String BUTTON_PAYMENT = "button-payment-method";
+    public static final String TERMS_AND_CONDITIONS_XPATH = "//input[@name='agree']";
+    public static final String DELIVERY_ID = "button-shipping-method";
+    public static final String BUTTON_SHIPPING_ADDRESS_ID = "button-shipping-address";
+
+}
