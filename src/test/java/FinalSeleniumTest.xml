@@ -10,7 +10,7 @@
     </test>
 
 
-    <test name="EdgeTest">
+    <test name="FireFoxTest">
         <parameter name="browserName" value="firefox" />
         <classes>
             <class name="FinalSeleniumTest">
